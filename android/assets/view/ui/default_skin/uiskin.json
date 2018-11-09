@@ -1,0 +1,219 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    green: {a: 1, b: 0, g: 1, r: 0},
+    white: {a: 1, b: 1, g: 1, r: 1},
+    red: {a: 1, b: 0, g: 0, r: 1},
+    black: {a: 1, b: 0, g: 0, r: 0},
+    soft-black: {
+      r: 0.19607843
+      g: 0.19607843
+      b: 0.19607843
+      a: 1
+    },
+    white-gray: {
+      r: 0.6784314
+      g: 0.7176471
+      b: 0.7137255
+      a: 1
+    }
+  },
+  com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator: {
+    Kankin_big: {
+      font: Kankin.ttf
+      size: 80
+      mono: false
+      color: white
+      gamma: 1.8
+      renderCount: 4
+      borderWidth: 0
+      borderStraight: false
+      borderGamma: 1.8
+      shadowOffsetX: 0
+      shadowOffsetY: 0
+      spaceX: 0
+      spaceY: 0
+      kerning: true
+      flip: false
+      genMipMaps: false
+      incremental: false
+      hinting: None
+      minFilter: Linear
+      magFilter: Linear
+      characters: "абвгдежзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789][_!$%#@|\\\\/?-+=()*&.;:,{}\\\"´`'<>"
+    }
+    Kankin_medium: {
+      font: Kankin.ttf
+      size: 45
+      mono: false
+      color: white
+      gamma: 1.8
+      renderCount: 3
+      borderWidth: 0
+      borderStraight: false
+      borderGamma: 1.8
+      shadowOffsetX: 0
+      shadowOffsetY: 0
+      spaceX: 0
+      spaceY: 0
+      kerning: true
+      flip: false
+      genMipMaps: false
+      incremental: false
+      hinting: None
+      minFilter: Linear
+      magFilter: Linear
+      characters: "абвгдежзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789][_!$%#@|\\\\/?-+=()*&.;:,{}\\\"´`'<>"
+    }
+    Kankin_small: {
+      font: Kankin.ttf
+      size: 30
+      mono: false
+      color: white
+      gamma: 1.8
+      renderCount: 2
+      borderWidth: 0
+      borderStraight: false
+      borderGamma: 1.8
+      shadowOffsetX: 0
+      shadowOffsetY: 0
+      spaceX: 0
+      spaceY: 0
+      kerning: true
+      flip: false
+      genMipMaps: false
+      incremental: false
+      hinting: None
+      minFilter: Linear
+      magFilter: Linear
+      characters: "абвгдежзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789][_!$%#@|\\\\/?-+=()*&.;:,{}\\\"´`'<>"
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+    dialogDim: {
+      name: white,
+      color: {r: 0, g: 0, b: 0, a: 0.45}
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    default: {
+      down: default-round-down,
+      up: default-round
+    },
+    toggle: {
+      checked: default-round-down
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: {
+      font: Kankin_medium,
+      fontColor: white
+    },
+    toggle: {
+      checked: default-round-down,
+      downFontColor: red
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    default: {
+      vScroll: default-scroll,
+      hScrollKnob: default-round-large,
+      background: default-rect,
+      hScroll: default-scroll,
+      vScrollKnob: default-round-large
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+    default: {
+      font: Kankin_medium,
+      fontColor: white,
+      background: default-select,
+      scrollStyle: default,
+      listStyle: {
+        font: Kankin_medium,
+        selection: default-select-selection
+      }
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+    default-vertical: {
+      handle: default-splitpane-vertical
+    },
+    default-horizontal: {
+      handle: default-splitpane
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+    default: {
+      titleFont: Kankin_medium,
+      background: default-window,
+      titleFontColor: white
+    },
+    dialog: {
+      stageBackground: dialogDim
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+    default-horizontal: {
+      background: default-slider,
+      knob: default-slider-knob
+    },
+    default-vertical: {
+      background: default-slider,
+      knob: default-round-large
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: {
+      font: Kankin_medium,
+      fontColor: white
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+    default: {
+      selection: selection,
+      background: textfield,
+      font: Kankin_medium,
+      fontColor: white,
+      cursor: cursor
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+    default: {
+      checkboxOn: check-on,
+      checkboxOff: check-off,
+      font: Kankin_medium,
+      fontColor: white
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+    default: {
+      fontColorUnselected: white,
+      selection: selection,
+      fontColorSelected: white,
+      font: Kankin_medium
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+    default: {
+      background: default-pane,
+      knob: default-round-large
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+    default: {
+      minus: tree-minus,
+      plus: tree-plus,
+      selection: default-select-selection
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+    default: {
+      label: {
+        font: Kankin_medium,
+        fontColor: white
+      },
+      background: default-pane,
+      wrapWidth: 150
+    }
+  }
+}

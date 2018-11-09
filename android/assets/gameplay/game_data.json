@@ -1,0 +1,88 @@
+{
+  "chapters": [
+    {
+      "class": "chapter",
+      "name": "chapter_1",
+      "maxPoints": 15,
+      "levels": [
+        {
+          "class": "level",
+          "name": "level_1-1",
+          "dataPath": "gameplay/chapter_1/level_1.json",
+          "localePath": "gameplay/chapter_1/MyBundle",
+          "type": "tutorial"
+        },
+        {
+          "class": "level",
+          "name": "level_1-2",
+          "dataPath": "gameplay/chapter_1/level_2.json",
+          "localePath": "gameplay/chapter_1/MyBundle",
+          "type": "more_mass"
+        },
+        {
+          "class": "level",
+          "name": "level_1-3",
+          "dataPath": "gameplay/chapter_1/level_3.json",
+          "localePath": "gameplay/chapter_1/MyBundle",
+          "type": "more_mass"
+        },
+        {
+          "class": "level",
+          "name": "level_1-4",
+          "dataPath": "gameplay/chapter_1/level_4.json",
+          "localePath": "gameplay/chapter_1/MyBundle",
+          "type": "survival"
+        },
+        {
+          "class": "level",
+          "name": "level_1-5",
+          "dataPath": "gameplay/chapter_1/level_5.json",
+          "localePath": "gameplay/chapter_1/MyBundle",
+          "type": "more_mass"
+        }
+      ]
+    },
+    {
+      "class": "chapter",
+      "name": "chapter_2",
+      "maxPoints": 15,
+      "levels": [
+        {
+          "class": "level",
+          "name": "level_2-1",
+          "dataPath": "gameplay/chapter_2/level_1.json",
+          "localePath": "gameplay/chapter_2/MyBundle",
+          "type": "survival"
+        },
+        {
+          "class": "level",
+          "name": "level_2-2",
+          "dataPath": "gameplay/chapter_2/level_2.json",
+          "localePath": "gameplay/chapter_2/MyBundle",
+          "type": "more_mass"
+        },
+        {
+          "class": "level",
+          "name": "level_2-3",
+          "dataPath": "gameplay/chapter_2/level_3.json",
+          "localePath": "gameplay/chapter_2/MyBundle",
+          "type": "survival"
+        },
+        {
+          "class": "level",
+          "name": "level_2-4",
+          "dataPath": "gameplay/chapter_2/level_4.json",
+          "localePath": "gameplay/chapter_2/MyBundle",
+          "type": "more_mass"
+        },
+        {
+          "class": "level",
+          "name": "level_2-5",
+          "dataPath": "gameplay/chapter_2/level_5.json",
+          "localePath": "gameplay/chapter_2/MyBundle",
+          "type": "more_mass"
+        }
+      ]
+    }
+  ]
+}

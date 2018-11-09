@@ -1,0 +1,57 @@
+{
+  "levelData": {
+    "dialog": {
+      "class": "dialog",
+      "dialogs": [
+        "dialog_2-1-1"
+      ],
+      "imagesFromGameAtlas": [
+        "atom-event"
+      ],
+      "imageIndexes": [
+        -1
+      ]
+    }
+  },
+  "gameData": {
+    "worldData": {
+      "class": "basicWorldData",
+      "player": {
+        "class": "playerData",
+        "position": {
+          "class": "vector2",
+          "x": 0.0,
+          "y": 0.0
+        },
+        "velocity": {
+          "class": "vector2",
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "moleHole": {
+        "class": "moleHoleData",
+        "position": {
+          "class": "vector2",
+          "x": -25.0,
+          "y": 35.0
+        }
+      },
+      "processesData": {
+        "class": "processesData",
+        "processes": [
+          "random_generation"
+        ],
+        "randomGenerationData": {
+          "class": "randomGenerationData",
+          "event": 1,
+          "timeStep": 2
+        }
+      }
+    }
+  },
+  "game_over": {
+    "class": "game_over",
+    "gameOverValue": 60
+  }
+}

@@ -1,0 +1,90 @@
+
+atoms.png
+size: 4096,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+antimatter
+  rotate: false
+  xy: 1884, 1286
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 1
+antimatter
+  rotate: false
+  xy: 516, 2
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 2
+antimatter
+  rotate: false
+  xy: 2398, 1286
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 3
+atom
+  rotate: false
+  xy: 2, 516
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 1
+atom
+  rotate: false
+  xy: 1370, 1286
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 2
+atom
+  rotate: false
+  xy: 2, 2
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 3
+atom
+  rotate: false
+  xy: 516, 516
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 4
+atom-event
+  rotate: false
+  xy: 2912, 1286
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+background
+  rotate: false
+  xy: 2, 1030
+  size: 1366, 768
+  orig: 1366, 768
+  offset: 0, 0
+  index: -1
+mole-hole
+  rotate: false
+  xy: 3426, 1286
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+radiation
+  rotate: false
+  xy: 1030, 516
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 1
+radiation
+  rotate: false
+  xy: 1030, 2
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: 2

@@ -1,0 +1,294 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    atom_0-1: {
+      r: 0.81414664
+      g: 0.0200665
+      b: 0.86
+      a: 1
+    }
+    atom_0-2: {
+      r: 0.67316633
+      g: 0.12661093
+      b: 0.71666664
+      a: 1
+    }
+    atom_1-1: {
+      r: 0.8300695
+      g: 0.33648872
+      b: 0.89333326
+      a: 1
+    }
+    atom_1-2: {
+      r: 0.6157187
+      g: 0.20789981
+      b: 0.6299999
+      a: 1
+    }
+    atom_2-1: {
+      r: 0.64097744
+      g: 0.064533174
+      b: 0.88
+      a: 1
+    }
+    atom_2-2: {
+      r: 0.5374335
+      g: 0.2303999
+      b: 0.72
+      a: 1
+    }
+    black: {
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+    }
+    soft-black: {
+      r: 0.2
+      g: 0.2
+      b: 0.2
+      a: 1
+    }
+    white: {
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    }
+    white-gray: {
+      r: 0.6784314
+      g: 0.7176471
+      b: 0.7137255
+      a: 1
+    }
+  }
+  com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator: {
+    Kankin_big: {
+      font: Kankin.ttf
+      size: 80
+      mono: false
+      color: white
+      gamma: 1.8
+      renderCount: 4
+      borderWidth: 0
+      borderStraight: false
+      borderGamma: 1.8
+      shadowOffsetX: 0
+      shadowOffsetY: 0
+      spaceX: 0
+      spaceY: 0
+      kerning: true
+      flip: false
+      genMipMaps: false
+      incremental: false
+      hinting: None
+      minFilter: Linear
+      magFilter: Linear
+      characters: "абвгдежзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789][_!$%#@|\\\\/?-+=()*&.;:,{}\\\"´`'<>"
+    }
+    Kankin_medium: {
+      font: Kankin.ttf
+      size: 45
+      mono: false
+      color: white
+      gamma: 1.8
+      renderCount: 3
+      borderWidth: 0
+      borderStraight: false
+      borderGamma: 1.8
+      shadowOffsetX: 0
+      shadowOffsetY: 0
+      spaceX: 0
+      spaceY: 0
+      kerning: true
+      flip: false
+      genMipMaps: false
+      incremental: false
+      hinting: None
+      minFilter: Linear
+      magFilter: Linear
+      characters: "абвгдежзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789][_!$%#@|\\\\/?-+=()*&.;:,{}\\\"´`'<>"
+    }
+    Kankin_small: {
+      font: Kankin.ttf
+      size: 30
+      mono: false
+      color: white
+      gamma: 1.8
+      renderCount: 2
+      borderWidth: 0
+      borderStraight: false
+      borderGamma: 1.8
+      shadowOffsetX: 0
+      shadowOffsetY: 0
+      spaceX: 0
+      spaceY: 0
+      kerning: true
+      flip: false
+      genMipMaps: false
+      incremental: false
+      hinting: None
+      minFilter: Linear
+      magFilter: Linear
+      characters: "абвгдежзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789][_!$%#@|\\\\/?-+=()*&.;:,{}\\\"´`'<>"
+    }
+    Kankin_very_small: {
+      font: Kankin.ttf
+      size: 20
+      mono: false
+      color: white
+      gamma: 1.8
+      renderCount: 2
+      borderWidth: 0
+      borderStraight: false
+      borderGamma: 1.8
+      shadowOffsetX: 0
+      shadowOffsetY: 0
+      spaceX: 0
+      spaceY: 0
+      kerning: true
+      flip: false
+      genMipMaps: false
+      incremental: false
+      hinting: None
+      minFilter: Linear
+      magFilter: Linear
+      characters: "абвгдежзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789][_!$%#@|\\\\/?-+=()*&.;:,{}\\\"´`'<>"
+    }
+  }
+  com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+    atom_0-1: {
+      name: atom
+      color: atom_0-1
+    }
+    atom_0-2: {
+      name: atom
+      color: atom_0-2
+    }
+    atom_1-1: {
+      name: atom_1
+      color: atom_1-1
+    }
+    atom_1-2: {
+      name: atom_1
+      color: atom_1-2
+    }
+    atom_2-1: {
+      name: atom_2
+      color: atom_2-1
+    }
+    atom_2-2: {
+      name: atom_2
+      color: atom_2-2
+    }
+    back_1: {
+      name: back
+      color: white-gray
+    }
+    info_1: {
+      name: info
+      color: white-gray
+    }
+    pause_1: {
+      name: pause
+      color: white-gray
+    }
+    settings_1: {
+      name: settings
+      color: white-gray
+    }
+    direction_1: {
+      name: direction
+      color: white-gray
+    }
+  }
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    back: {
+      up: back
+      down: back_1
+    }
+    info: {
+      up: info
+      down: info_1
+    }
+    pause: {
+      up: pause
+      down: pause_1
+    }
+    settings: {
+      up: settings
+      down: settings_1
+    }
+    direction: {
+      up: direction
+      down: direction_1
+    }
+    atom: {
+      up: atom_0-1
+      down: atom_0-2
+    }
+    atom_1: {
+      up: atom_1-1
+      down: atom_1-2
+    }
+    atom_2: {
+      up: atom_2-1
+      down: atom_2-2
+    }
+  }
+  com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+    default: {
+      checkboxOn: checked
+      checkboxOff: unchecked
+      font: Kankin_medium
+      fontColor: white
+      downFontColor: white-gray
+    }
+  }
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: {
+      font: Kankin_medium
+      fontColor: white
+    }
+    big: {
+      font: Kankin_big
+      fontColor: white
+    }
+    small: {
+      font: Kankin_small
+      fontColor: white
+    }
+    very_small: {
+      font: Kankin_very_small
+      fontColor: white
+    }
+  }
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: {
+      font: Kankin_medium
+      fontColor: white
+      downFontColor: white-gray
+    }
+    big: {
+      font: Kankin_big
+      fontColor: white
+      downFontColor: white-gray
+    }
+    small: {
+      font: Kankin_small
+      fontColor: white
+      downFontColor: white-gray
+    }
+    very_small: {
+      font: Kankin_very_small
+      fontColor: white
+      downFontColor: white-gray
+    }
+  }
+  com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+    default: {
+      font: Kankin_medium
+      fontColor: white
+      messageFontColor: white-gray
+    }
+  }
+}

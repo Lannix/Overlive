@@ -1,0 +1,48 @@
+
+levels_skin.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+labyrinth
+  rotate: false
+  xy: 1, 261
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+mission
+  rotate: false
+  xy: 1, 131
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+more_mass
+  rotate: false
+  xy: 131, 261
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+survival
+  rotate: false
+  xy: 1, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+tutorial
+  rotate: false
+  xy: 131, 131
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+point
+  rotate: false
+  xy: 261, 357
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

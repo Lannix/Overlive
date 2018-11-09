@@ -1,0 +1,19 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    antimatter-dynamic: {
+      a: 1.0, b: 0.54509807, g: 0.14901961, r: 0.4
+    }
+    antimatter-static: {
+      a: 1.0, b: 0.1764706, g: 0.54509807, r: 0.0
+    }
+    radiation: {
+      a: 1.0, b: 0.023529412, g: 0.0, r: 0.54509807
+    }
+    atom: {
+      a: 1.0, b: 1.0, g: 1.0, r: 1.0
+    }
+    atom-event: {
+      a: 1.0, b: 0.0, g: 0.9137255, r: 1.0
+    }
+  }
+}

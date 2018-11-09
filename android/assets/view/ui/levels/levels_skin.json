@@ -1,0 +1,106 @@
+{
+com.badlogic.gdx.graphics.Color: {
+	blue: {
+		r: 0
+		g: 0.03105545
+		b: 1
+		a: 1
+	}
+	gray: {
+		r: 0.71666664
+		g: 0.71666664
+		b: 0.71666664
+		a: 1
+	}
+	dark-gray: {
+		a: 1.0, b: 0.34509805, g: 0.34509805, r: 0.34509805
+	}
+	green: {
+		r: 0.29476598
+		g: 0.76
+		b: 0.17480004
+		a: 1
+	}
+	red: {
+		r: 0.73333335
+		g: 0.12955552
+		b: 0.12955552
+		a: 1
+	}
+	yellow: {
+		r: 0.94
+		g: 0.84288967
+		b: 0.043866754
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	more_mass-1: {
+		name: more_mass
+		color: blue
+	}
+	more_mass-2: {
+		name: more_mass
+		color: gray
+	}
+	mission-1: {
+		name: mission
+		color: yellow
+	}
+	mission-2: {
+		name: mission
+		color: gray
+	}
+	labyrinth-1: {
+		name: labyrinth
+		color: green
+	}
+	labyrinth-2: {
+		name: labyrinth
+		color: gray
+	}
+	tutorial-1: {
+		name: tutorial
+		color: gray
+	}
+	survival-1: {
+		name: survival
+		color: red
+	}
+	survival-2: {
+		name: survival
+		color: gray
+	}
+	closed_point: {
+		name: point
+		color: dark-gray
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	labyrinth: {
+		up: labyrinth
+		down: labyrinth-1
+		disabled: labyrinth-2
+	}
+	survival: {
+		up: survival
+		down: survival-1
+		disabled: survival-2
+	}
+	mission: {
+		up: mission
+		down: mission-1
+		disabled: mission-2
+	}
+	tutorial: {
+		up: tutorial
+		down: tutorial-1
+		disabled: tutorial-1
+	}
+	more_mass: {
+		up: more_mass
+		down: more_mass-1
+		disabled: more_mass-2
+	}
+}
+}

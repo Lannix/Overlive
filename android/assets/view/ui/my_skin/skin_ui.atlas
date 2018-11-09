@@ -1,0 +1,76 @@
+
+skin_ui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+atom
+  rotate: false
+  xy: 1, 329
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+atom_1
+  rotate: false
+  xy: 1, 199
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+atom_2
+  rotate: false
+  xy: 131, 329
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 261, 393
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+checked
+  rotate: false
+  xy: 1, 133
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+direction
+  rotate: false
+  xy: 1, 67
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+info
+  rotate: false
+  xy: 327, 393
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+settings
+  rotate: false
+  xy: 393, 393
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+unchecked
+  rotate: false
+  xy: 131, 263
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
